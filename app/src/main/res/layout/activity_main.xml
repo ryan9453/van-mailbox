@@ -10,20 +10,20 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
         android:layout_marginTop="344dp"
-        android:text="高"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="8dp"
+        android:text="height"
+        app:layout_constraintEnd_toStartOf="@+id/height"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
         android:layout_marginTop="284dp"
-        android:text="寬"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="8dp"
+        android:text="width"
+        app:layout_constraintEnd_toStartOf="@+id/width"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="貨物尺寸分類"
+        android:text="Cargo size check"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="請輸入貨物尺寸"
+        android:text="Please enter cargo's size"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,10 +89,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="232dp"
-        android:text="長"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="8dp"
+        android:text="length"
+        app:layout_constraintEnd_toStartOf="@+id/length"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="toCheck"
-        android:text="檢查"
+        android:text="check"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
